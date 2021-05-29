@@ -7,9 +7,10 @@ import Highlights from "./components/highlights";
 import Pricing from "./components/pricing";
 import Location from "./components/location/index";
 import Footer from "./components/header-footer/Footer";
-
+// import MapContainer from "./components/location/MapContainer";
 
 function App() {
+  
   return (
     <div style={{ height: "1000px", backgroundColor: "#3c3c3c" }}>
       <Header />
@@ -18,6 +19,7 @@ function App() {
       <Highlights />
       <Pricing />
       <Location/>
+      {/* <MapContainer/> */}
       <Footer/>
     </div>
   );
