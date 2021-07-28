@@ -381,6 +381,7 @@ margin: 5px 0 0;
 
 .location_wrapper {
   position: relative;
+  width: 99.6%;
 }
 
 .location_tag {
