@@ -1,6 +1,7 @@
 import React from "react";
 
 function Description() {
+
   return (
     <div className="center_wrapper">
       <h2>Highlights</h2>
